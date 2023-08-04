@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <Router>
        <Routes>
-         <Route path="/" element={<Home/>}></Route>
+         <Route path="/google-Clone" element={<Home/>}></Route>
          <Route path="/search" element={<SearchPage/>}></Route>
        </Routes>
       </Router>
